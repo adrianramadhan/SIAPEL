@@ -48,7 +48,7 @@ public class PelangganService extends SQLiteOpenHelper {
 
     public void delete(String id){
         String QUERY="DELETE FROM " + Services.TABEL_PELANGGAN +
-                "WHERE id_pelanggan='"+id +"'";
+                " WHERE id_pelanggan='"+id +"'";
         SQLiteDatabase db = this.getWritableDatabase();
         db.execSQL(QUERY);
     }
