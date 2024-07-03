@@ -10,7 +10,7 @@ import java.util.HashMap;
 public class JenisRekService extends SQLiteOpenHelper {
 
     public JenisRekService(Context context){
-        super(context,Services.NAMA_DATABASE,null,Services.VERSI_DATABASE);
+        super(context, Services.NAMA_DATABASE,null, Services.VERSI_DATABASE);
     }
 
     @Override
