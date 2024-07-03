@@ -27,7 +27,7 @@ public class MainActivity extends AppCompatActivity {
         new Handler().postDelayed(new Runnable() {
             @Override
             public void run() {
-                Intent dashboard= new Intent(MainActivity.this,PelangganListAct.class);
+                Intent dashboard= new Intent(MainActivity.this,DashboardAct.class);
                 startActivity(dashboard);
                 finish();
             }
